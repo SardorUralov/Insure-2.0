@@ -1,0 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+    font-family: 'DM Serif Display';
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,138 @@
+@media only screen and (max-width: 600px) {
+
+    .header {
+        height: 70px;
+
+       &__logo-img {
+        width: 250px;
+        height: 70px;
+       } 
+
+       &__menu {
+        display: none;
+       } 
+
+       &__linker {
+        display: none;
+       }
+
+       &__link {
+        display: none;
+       }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        position: relative;
+        padding: 40px;
+        width: 1400px;
+        height: 2000px;
+        
+        &__inner {
+          margin-top: 1140px;  
+        }
+
+        &__img {
+            width: 1200px;
+            height: 1000px;
+            position: absolute;
+            top: 0%;
+            left: 7.3%;
+            right: 0%;
+            bottom: 0%;
+        }
+
+        &__title {
+            margin: 0; 
+            margin: 0 auto;
+            width: 1000px;
+            height: 260px;
+            font-weight: 500;
+            font-size: 132px;
+            line-height: 80px;
+        }
+
+        
+        &__text {
+            margin: 0;
+            margin: 0 auto;
+            width: 1000px;
+            height: 104px;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 60px;
+        }
+
+        &__link {
+            position: absolute;
+            top: 90%;
+            right: 0%;
+            bottom: 0%;
+            left: 36%;
+            width: 346px;
+            height: 70px;
+            padding: 10px 18px;
+            z-index: 1;
+            text-decoration: none;
+            font-family: 'Karla';
+            font-weight: 700;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btm-section {
+        margin: 0;
+        margin: 0 auto;
+
+        &__title {
+            margin-left: 300px;
+            width: 900px;
+            height: 100px;
+            margin-bottom: 95px;
+            font-weight: 400;
+            font-size: 120px;
+            line-height: 64px;
+        }
+
+        &__menu {
+            margin-left: 270px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__linker {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__img {
+            width: 500px;
+            height: 500px;
+        }
+
+        &__ftext {
+            width: 800px;
+            height: 120px;
+            font-size: 80px;
+            line-height: 50px; 
+        }
+
+        &__ltext {
+            margin-bottom: 100px;
+            width: 800px;
+            height: 250px;
+            font-size: 50px;
+            line-height: 46px;
+        }
+    }
+    
+}

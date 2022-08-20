@@ -1,0 +1,323 @@
+/* dm-serif-display-regular - latin-ext_latin */
+@font-face {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v10-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v10-latin-ext_latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* karla-regular - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/karla-v23-latin-regular.woff2") format("woff2"), url("../fonts/karla-v23-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* karla-500 - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/karla-v23-latin-500.woff2") format("woff2"), url("../fonts/karla-v23-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* karla-700 - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/karla-v23-latin-700.woff2") format("woff2"), url("../fonts/karla-v23-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Serif Display";
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.header__linker {
+  text-decoration: none;
+  padding-left: 26px;
+  font-family: "Karla";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837D88;
+}
+.header__link {
+  width: 146px;
+  height: 40px;
+  padding: 10px 18px;
+  z-index: 1;
+  margin-left: 61px;
+  text-decoration: none;
+  font-family: "Karla";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2C2830;
+  border: 2px solid #2C2830;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 220px;
+  position: relative;
+  padding: 169px 735px 127px 145px;
+  width: 1440px;
+  height: 600px;
+  background-color: #2D2641;
+  display: flex;
+  flex-direction: column;
+}
+.main__item {
+  display: flex;
+  justify-content: space-between;
+}
+.main__inner {
+  margin-right: 30px;
+}
+.main__title {
+  width: 540px;
+  height: 140px;
+  margin: 0;
+  margin-bottom: 26px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.main__text {
+  width: 540px;
+  height: 84px;
+  margin-bottom: 34px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.main__link {
+  width: 146px;
+  height: 40px;
+  padding: 10px 18px;
+  z-index: 1;
+  text-decoration: none;
+  font-family: "Karla";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.main__img {
+  position: absolute;
+  top: 14%;
+  right: 0%;
+  bottom: 0%;
+  left: 54%;
+}
+
+.btm-section {
+  margin: 0;
+  margin-bottom: 158px;
+}
+.btm-section__title {
+  margin-bottom: 95px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
+}
+.btm-section__menu {
+  margin: 0;
+  display: flex;
+  padding: 0%;
+}
+.btm-section__linker {
+  margin: 0;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.btm-section__linker:first-child {
+  margin-left: 0;
+}
+.btm-section__ftext {
+  margin: 0;
+  width: 350px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+.btm-section__ltext {
+  margin: 0;
+  width: 350px;
+  height: 78px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 70px;
+  }
+  .header__logo-img {
+    width: 250px;
+    height: 70px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__linker {
+    display: none;
+  }
+  .header__link {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    position: relative;
+    padding: 40px;
+    width: 1400px;
+    height: 2000px;
+  }
+  .main__inner {
+    margin-top: 1140px;
+  }
+  .main__img {
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 7.3%;
+    right: 0%;
+    bottom: 0%;
+  }
+  .main__title {
+    margin: 0;
+    margin: 0 auto;
+    width: 1000px;
+    height: 260px;
+    font-weight: 500;
+    font-size: 132px;
+    line-height: 80px;
+  }
+  .main__text {
+    margin: 0;
+    margin: 0 auto;
+    width: 1000px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .main__link {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    bottom: 0%;
+    left: 36%;
+    width: 346px;
+    height: 70px;
+    padding: 10px 18px;
+    z-index: 1;
+    text-decoration: none;
+    font-family: "Karla";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btm-section {
+    margin: 0;
+    margin: 0 auto;
+  }
+  .btm-section__title {
+    margin-left: 300px;
+    width: 900px;
+    height: 100px;
+    margin-bottom: 95px;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 64px;
+  }
+  .btm-section__menu {
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btm-section__linker {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .btm-section__img {
+    width: 500px;
+    height: 500px;
+  }
+  .btm-section__ftext {
+    width: 800px;
+    height: 120px;
+    font-size: 80px;
+    line-height: 50px;
+  }
+  .btm-section__ltext {
+    margin-bottom: 100px;
+    width: 800px;
+    height: 250px;
+    font-size: 50px;
+    line-height: 46px;
+  }
+}/*# sourceMappingURL=main.css.map */
